@@ -1,0 +1,88 @@
+#While Loop
+
+
+
+Count = 0
+
+while(Count<10):
+    
+	print(Count)
+    
+	Count = Count + 1 #Prints 0 - 9.
+    
+
+
+
+num = 0
+
+while(num<3):
+    
+	print("Hi Python")
+    
+	num = num + 1 
+
+else:
+    
+	print("Bye Python")
+   
+
+
+#For Loop - Iterating For Loop and Printing Values from Names 
+List
+Names = ["Java", "Python", "C Sharp", "Ruby", "VB Script"]
+
+for i in Names:
+
+    print(i)
+
+
+
+String = "Simon Stewart"
+
+for i in String:
+
+    print(i)
+
+
+
+
+List1 = ["Naveen", "Automation", "Labs"]
+
+for index in range(len(List1)): #Range is a method to tell where exactly for loop to Stop
+ 
+    print(List1[index]) 
+
+
+#For Loop with Else 
+CountryList = ["India", "Atlanta", "London", "Russia", "New York"]
+
+for index in range(len(CountryList)):
+ #Range is a method to tell where exactly for loop to Stop
+ - Length for Complete CountryList
+    print(CountryList[index])
+
+else:
+
+    print("Country List is Over")
+
+
+CityList = ["Bangalore", "Chennai", "Hyderabad", "Kolkata", "Bihar"]
+
+for index in range(2):
+
+    print(CityList[index])
+
+else:
+
+    print("City List is Over")
+
+
+#Nested For loop
+
+for i in range(1, 5):
+
+    for j in range(i):
+
+        print(i, end=" ")
+
+    print()

@@ -1,0 +1,125 @@
+Str1 = "Selenium Test"
+
+Str2 = "Hello World"
+
+
+
+print(Str1)
+
+print(Str2)
+
+
+
+print(Str1[0]) #This will print first character from Str1
+
+print(Str1[0:8]) #This will print 0th Character to 8th Character from Str
+
+1
+
+print(Str1+ " " +Str2) #Concatination Str1 with Str2
+
+
+
+print("Hello \nWorld") #Printin World in Next Line
+
+print("Hello \tWorld") #Using Tab between Hello and World
+
+
+
+print("Test \n"*5) #Printing Test for 5 Times
+
+print("Selenium" in Str1) #Checking if Selenium is present in Str1
+
+print("SeleniumJava" not in Str1)
+
+print("My name is %s and my Age is %d" %("Pavan", 25)) #Prints Name and Age
+
+
+
+---------------------------------------------------------------------------
+
+Str3 = '''Selenium
+ 
+is a Open Source
+
+Web Application Automation Tool
+
+SeleniumWebdriver developed by Simon Stewart in 2009.
+
+'''
+
+print(Str3) #To Print Paragraph we follow above Str3.
+
+print('Hi I\'m Pavan') #We use \' or \" or \# \@ to Print Special Characters
+
+print("Hi My Favourite Proramming Language is \"Python\" and I am so happy")
+
+---------------------------------------------------------------------------
+
+Str4 = "This is my Java Code and I Love Java"
+
+print(Str4)
+
+print(Str4.capitalize()) #It Converts Capital Letters in Small
+
+
+print(Str4.count("Java")) #It Counts how many times particular word repeated
+
+
+print(Str4.find("Code")) #Counts where exactly Word is Starting in a String
+
+print(Str4.find("Pavan")) #If not present in a String then it returns -1
+
+
+print(len(Str4)) #Prints Length of String
+
+print(Str4.lower()) #Prints String in Small letters
+
+---------------------------------------------------------------------------
+
+Str5 = "Mind"
+
+print(Str5)
+
+print(Str5.replace("Mind", "Blow")) #Replaces Mind with Blow
+
+
+
+---------------------------------------------------------------------------
+
+Str6 = "Mind Blow Eat"
+
+print(Str6)
+
+Remove = Str6.split("Eat") #Removes Eat from Str6
+
+print(Remove)
+
+print(Remove[0])
+
+
+
+print(Str6.upper()) #Converts all letters into Capitals
+
+
+
+---------------------------------------------------------------------------
+
+Str7 = "Java"
+
+print(Str7[3]) #Printing String Values "a"
+
+print(Str7[-1]) #Printing String Values "a"
+print(Str7[-4]) #Printing String Values "J"
+
+
+
+---------------------------------------------------------------------------
+
+Str8 = "Java"
+
+print(Str7 is Str8)
+
+print(Str7 == Str8) #Strings Comparision
+
+---------------------------------------------------------------------------

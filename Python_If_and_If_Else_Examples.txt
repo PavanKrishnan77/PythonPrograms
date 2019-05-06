@@ -1,0 +1,89 @@
+i = 10
+
+j = 20
+
+
+if(i<j):
+    
+	print("I value is Less than J")
+
+---------------------------------------------------
+
+total=int(input("Enter the total value : "))
+
+
+
+if(total<100):
+    
+	total=total+100
+
+elif(total>=200 and total<=500):
+    
+	total=total+200
+
+else:
+    
+total=total+200
+    
+
+
+print(total) #No Concatination
+
+
+print("Total Value = "+str(total)) #Using Str Method
+
+
+print(f'{"Total Value = "}{total}') #Using f Strings
+
+----------------------------------------------------
+
+i = 40
+
+j = 30
+
+
+
+if(i<j):
+    
+	print("I is Greater than J")
+
+elif(i>j):
+   
+	print("J is Greater than I")
+
+----------------------------------------------------
+
+x = int(input("Enter the Value of X : "))
+
+
+
+if(x<20):
+    
+	print("X is Less than given Number")
+
+elif(x>30):
+    
+	print("X is Greater than given Number")
+
+----------------------------------------------------
+
+a = 100
+
+b = 400
+
+c = 300
+
+
+if(a>b and a>c):
+    
+	print("A is Greater")
+
+elif(b>a and b>c):
+
+	print("B is Greater")
+
+else:
+ 
+    	print("C is Greater")
+
+----------------------------------------------------

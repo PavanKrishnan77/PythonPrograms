@@ -1,0 +1,108 @@
+Score = [10, 20, 30, 40 , 50]
+
+print(Score)
+
+
+
+-------------------------------------------------------------------------------------
+
+print(Score[0]) #Index Starts from 0
+
+print(Score[4])
+
+print(Score[-1]) #0 - 4 Slicing
+
+print(Score[-5]) # -1 -2 -3 -4 -5
+print(Score[1:3]) #20 and 30 will be printed - 4th Value will be ignored here
+
+print(Score[0:3]) #10, 20 and 30 will be printed - 4th Value will be ignored here
+#In Slicing, if we are printing any values from the List - Last Value will be ignored
+
+
+
+print(Score[:]) #New Copy of List will be printed
+
+
+
+-------------------------------------------------------------------------------------
+
+print(Score + [60, 70 , 80]) #Adding new values into the Existing List
+
+print(Score + ["A", "B", "C"])
+
+
+
+-------------------------------------------------------------------------------------
+
+Numbers = [11, 12, 14, 14, 15]
+
+print(Numbers)
+
+Numbers[2]=13
+
+print(Numbers) #Replacing 3rd Value with 13
+
+
+
+-------------------------------------------------------------------------------------
+
+Numbers.append(100)
+
+print(Numbers) #Append Adds Value into End of the List
+
+
+Numbers.append(5*5)
+
+print(Numbers)
+
+
+
+-------------------------------------------------------------------------------------
+
+Names = ['a', 'b', 'c', 'd', 'e']
+
+print(Names)
+
+Names[2:5] = ['C', 'D', 'E'] #Replacing c, d and e with Capital C, D and E
+
+print(Names)
+
+Names[2:5] = []
+
+print(Names) #Deletes 2:5 Values from List based on Index
+
+Names[:] = []
+
+print(Names)
+
+Names.append([1, 2, 3])
+
+print(Names)
+
+
+
+-------------------------------------------------------------------------------------
+
+Test = [10, 20, 30, 40, 50]
+
+print(len(Test)) #Print Length of List
+
+
+-------------------------------------------------------------------------------------
+
+
+#Nested List
+
+List1 = [1, 2, 3]
+
+List2 = ['A', 'B', 'C']
+
+List3 = [List1, List2]
+
+print(List3)
+
+print(List3[0])
+
+print(List3[1])
+
+print(List3[0][1]) #Array It'll go to 0th Value - Prints Index 1 Value in List1
